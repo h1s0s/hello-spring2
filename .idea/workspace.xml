@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="150ecef9-5bda-4855-93c0-f2db964b2f34" name="Changes" comment="2022-05-01 17:39">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/hello-static.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/hello-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/hello.html" afterDir="false" />
+    <list default="true" id="150ecef9-5bda-4855-93c0-f2db964b2f34" name="Changes" comment="2022-05-02 20:33">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/hellospring/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/controller/HelloController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +151,7 @@
       <updated>1651390024306</updated>
       <workItem from="1651390028287" duration="1460000" />
       <workItem from="1651391539587" duration="2667000" />
-      <workItem from="1651488120223" duration="2782000" />
+      <workItem from="1651488120223" duration="6732000" />
     </task>
     <task id="LOCAL-00001" summary="2022-05-01 16:44">
       <created>1651391154607</created>
@@ -185,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651394386665</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2022-05-02 20:33">
+      <created>1651491242829</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1651491242829</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +209,8 @@
     <MESSAGE value="2022-05-01 16:44" />
     <MESSAGE value="2022-05-01 17:07" />
     <MESSAGE value="2022-05-01 17:39" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-05-01 17:39" />
+    <MESSAGE value="2022-05-02 20:33" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-05-02 20:33" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
