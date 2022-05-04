@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="150ecef9-5bda-4855-93c0-f2db964b2f34" name="Changes" comment="2022-05-04 20:43 스프링 부트 공부">
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/hellospring/repository/MemoryMemberRepositoryTest.java" afterDir="false" />
+    <list default="true" id="150ecef9-5bda-4855-93c0-f2db964b2f34" name="Changes" comment="2022-05-04 21:07 스프링 부트 공부">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/service/MemberService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/hellospring/repository/MemoryMemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/repository/MemoryMemberRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +229,7 @@
       <workItem from="1651390028287" duration="1460000" />
       <workItem from="1651391539587" duration="2667000" />
       <workItem from="1651488120223" duration="7378000" />
-      <workItem from="1651663126642" duration="2911000" />
+      <workItem from="1651663126642" duration="3971000" />
     </task>
     <task id="LOCAL-00001" summary="2022-05-01 16:44">
       <created>1651391154607</created>
@@ -281,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651664795159</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2022-05-04 21:07 스프링 부트 공부">
+      <created>1651666088051</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1651666088052</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +311,8 @@
     <MESSAGE value="2022-05-02 20:33" />
     <MESSAGE value="2022-05-02 21:39 스프링 부트 공부" />
     <MESSAGE value="2022-05-04 20:43 스프링 부트 공부" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-05-04 20:43 스프링 부트 공부" />
+    <MESSAGE value="2022-05-04 21:07 스프링 부트 공부" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-05-04 21:07 스프링 부트 공부" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
