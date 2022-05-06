@@ -1,9 +1,15 @@
 package hello.hellospring.controller;
 
+import hello.hellospring.domain.MemberVo;
 import hello.hellospring.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.stereotype.Service;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+
+import java.util.List;
 
 @Controller
 public class MemberController {
@@ -27,4 +33,26 @@ public class MemberController {
     //필드 주입은 권장하지 않음, 바꿀 수 있는 방법이 제한적임.
     //생성자 주입을 많이 사용함
     //상황에 따라 구현 클래스를 변경해야 할때, 자바코드를 통한 빈 생성 방법을 사용함
+
+
+    @GetMapping("/members/new")
+    public String createForm(){
+        return "members/createMemberForm";
+    }
+
+    @PostMapping("/members/new")
+    public String create(MemberForm form){
+        MemberVo memberVo = new MemberVo();
+        memberVo.setName(form.getName());
+        memberService.join(memberVo);
+
+        return "redirect:/";
+    }
+
+    @GetMapping("/members")
+    public String list(Model model){
+        List<MemberVo> members = memberService.findMembers();
+        model.addAttribute("members", members);
+        return "members/memberList";
+    }
 }
