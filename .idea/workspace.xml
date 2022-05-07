@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="150ecef9-5bda-4855-93c0-f2db964b2f34" name="Changes" comment="2022-05-05 22:44 스프링 부트 공부">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/controller/MemberForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/members/createMemberForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/members/memberList.html" afterDir="false" />
+    <list default="true" id="150ecef9-5bda-4855-93c0-f2db964b2f34" name="Changes" comment="2022-05-06 20:39 스프링 부트 공부">
+      <change afterPath="$PROJECT_DIR$/sql/ddl.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/repository/JdbcMemberRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/hellospring/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,8 +90,8 @@
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -273,7 +271,7 @@
       <workItem from="1651488120223" duration="7378000" />
       <workItem from="1651663126642" duration="4352000" />
       <workItem from="1651755606811" duration="2652000" />
-      <workItem from="1651835676749" duration="1370000" />
+      <workItem from="1651835676749" duration="3173000" />
     </task>
     <task id="LOCAL-00001" summary="2022-05-01 16:44">
       <created>1651391154607</created>
@@ -352,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651758269005</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="2022-05-06 20:39 스프링 부트 공부">
+      <created>1651837171198</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1651837171198</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +385,8 @@
     <MESSAGE value="2022-05-04 21:26 스프링 부트 공부" />
     <MESSAGE value="2022-05-05 22:16 스프링 부트 공부" />
     <MESSAGE value="2022-05-05 22:44 스프링 부트 공부" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-05-05 22:44 스프링 부트 공부" />
+    <MESSAGE value="2022-05-06 20:39 스프링 부트 공부" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-05-06 20:39 스프링 부트 공부" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
