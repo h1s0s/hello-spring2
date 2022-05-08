@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="150ecef9-5bda-4855-93c0-f2db964b2f34" name="Changes" comment="2022-05-06 20:39 스프링 부트 공부">
-      <change afterPath="$PROJECT_DIR$/sql/ddl.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/repository/JdbcMemberRepository.java" afterDir="false" />
+    <list default="true" id="150ecef9-5bda-4855-93c0-f2db964b2f34" name="Changes" comment="2022-05-07 22:28 스프링 부트 공부">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/repository/JdbcTemplateMemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/hellospring/service/MemberServiceIntegrationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/hellospring/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/hellospring/repository/JdbcMemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/repository/JdbcMemberRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,6 +272,8 @@
       <workItem from="1651663126642" duration="4352000" />
       <workItem from="1651755606811" duration="2652000" />
       <workItem from="1651835676749" duration="3173000" />
+      <workItem from="1651930055292" duration="578000" />
+      <workItem from="1652012034075" duration="1919000" />
     </task>
     <task id="LOCAL-00001" summary="2022-05-01 16:44">
       <created>1651391154607</created>
@@ -357,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651837171198</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="2022-05-07 22:28 스프링 부트 공부">
+      <created>1651930133352</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1651930133352</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +395,8 @@
     <MESSAGE value="2022-05-05 22:16 스프링 부트 공부" />
     <MESSAGE value="2022-05-05 22:44 스프링 부트 공부" />
     <MESSAGE value="2022-05-06 20:39 스프링 부트 공부" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-05-06 20:39 스프링 부트 공부" />
+    <MESSAGE value="2022-05-07 22:28 스프링 부트 공부" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-05-07 22:28 스프링 부트 공부" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
